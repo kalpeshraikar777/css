@@ -1,0 +1,62 @@
+body {
+  background-color: coral;
+  border: 6px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Step 5: dark blue text for all elements with class "head" */
+.head {
+  color: darkblue;
+}
+
+/* Step 6: background color for 2nd heading using its id */
+#bglime {
+  background-color: lime;
+}
+
+/* Step 7: color the word "head" inside the 2nd heading red */
+.redword {
+  color: red;
+}
+
+/* keeping the word "bglime" black so it stands out from the blue heading text */
+.blackword {
+  color: black;
+}
+
+/* Step 8: 3 plain paragraphs styled only with the p tag, no id/class */
+p {
+  color: white;
+}
+
+/* Step 9: 2nd paragraph, has id "para", green text */
+#para {
+  color: green;
+}
+
+/* Step 10: word "paragraph" inside the last plain paragraph, black + bigger font.
+   Styled through the b tag sitting inside a p, so still no id/class is used. */
+p b {
+  color: black;
+  font-size: 20px;
+}
+
+/* Step 11: style the 2 lists without inline CSS and without id/class,
+   using structural (nth-child) selectors instead */
+
+ul li:nth-child(1) a {
+  background-color: yellow;
+}
+
+ul li:nth-child(2) a {
+  background-color: violet;
+}
+
+ol li:nth-child(2) {
+  color: blue;
+}
+
+ol li:nth-child(3) {
+  color: red;
+}
