@@ -5,9 +5,9 @@ tag selectors, class selectors, id selectors, and structural selectors like
 nth-child (used for the parts where id/class weren't allowed).
 
 ## Files
-- index.html - the markup
+- index_css_task.html - the markup
 - style.css - all the styling
-- Readme.md - this file
+- Readme_css_task.md - this file
 
 ## What's covered
 - Body background color
@@ -21,4 +21,4 @@ nth-child (used for the parts where id/class weren't allowed).
   of adding classes or ids
 
 ## How to run
-Open index.html in a browser - style.css is linked and loads automatically.
+Open index_css_task.html in a browser - style.css is linked and loads automatically.
